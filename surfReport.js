@@ -3,8 +3,10 @@ var surfObj = {
     todaysWaves:"tubular",
     processReport: function(){
        //edits go here
+       console.log("today is {date} and the waves are {todaysWaves}, dude.")
     }
 }
+
 
 //Using the "date" and "todaysWaves" properties, edit the function "processReport" 
 //to create and console.log a string that logs "today is {date}
